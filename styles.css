@@ -1,0 +1,60 @@
+/*
+ * Colors: #ededed #333333 #aaaaaa
+ */
+body {
+  background: #ededed;
+}
+
+div.container-fluid#main-content {
+  background: #FFFFFF;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  color: #333333;
+  width: auto;
+}
+
+div.container-fluid#main-content p {
+  margin-top: 20px;
+}
+
+div.row div.col {
+  padding: 50px;
+}
+
+div.row.separator div.col {
+  height: 40px;
+  width: 100%;
+  padding: 0px;
+  background-image: url("./images/img.png");
+  background-repeat: repeat-x;
+}
+
+div.row div.col {
+  font-size: 1.5em;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #FFFFFF;
+  color: #aaaaaa;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  -webkit-box-shadow: 0px -3px 10px 0px rgba(232,232,232,1);
+  -moz-box-shadow: 0px -3px 10px 0px rgba(232,232,232,1);
+  box-shadow: 0px -3px 10px 0px rgba(232,232,232,1);
+}
+
+footer div.progress {
+  height: 5px;
+  margin-bottom: 20px;
+}
+
+footer .progress-bar {
+  background-color: #333333;
+}
