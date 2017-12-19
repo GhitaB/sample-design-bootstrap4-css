@@ -28,7 +28,7 @@ div.row.separator div.col {
   width: 100%;
   padding: 0px;
   background-image: url("./images/img.png");
-  background-repeat: repeat-x;
+  background-repeat: space;
 }
 
 div.row div.col {
